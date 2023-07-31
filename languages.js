@@ -335,16 +335,4 @@ const languages = [
     native: "Tiếng Việt",
     code: "vi",
   },
-  {
-    no: "57",
-    name: "Welsh",
-    native: "Cymraeg",
-    code: "cy",
-  },
-  {
-    no: "58",
-    name: "Yiddish",
-    native: "ייִדיש",
-    code: "yi",
-  },
 ];
