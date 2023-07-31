@@ -4,10 +4,7 @@ const recordBtn = document.querySelector(".record"),
   inputLanguage = document.querySelector("#language"),
   clearBtn = document.querySelector(".clear");
 
-let SpeechRecognition =
-    window.SpeechRecognition || window.webkitSpeechRecognition,
-  recognition,
-  recording = false;
+let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition, recognition, recording = false;
 
 function populateLanguages() {
   languages.forEach((lang) => {
